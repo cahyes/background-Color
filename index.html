@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bermain Warna</title>
+    
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            text-align: center;
+        }
+        /* menambah css dan juga class langsung di css */
+        .biru-muda {
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bermain Dengan Warna</h1>
+    <button id="tombol" type="button">rubah warna</button>
+
+    <br><br><br>
+    <h3>Merah</h3>
+    <!-- beri angka min dan max untuk rgb -->
+    <input type="range" name="sMerah" min="0" max="255"> 
+
+    <br><br><br>
+    <h3>Hijau</h3>
+    <!-- beri angka min dan max untuk rgb -->
+    <input type="range" name="sHijau" min="0" max="255"> 
+
+    <br><br><br>
+    <h3>Biru</h3>
+    <!-- beri angka min dan max untuk rgb -->
+    <input type="range" name="sBiru" min="0" max="255"> 
+
+<script src="warna.js"></script>
+</body>
+</html>
